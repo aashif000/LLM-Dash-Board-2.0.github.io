@@ -1,69 +1,60 @@
-# Welcome to your Lovable project
+# LLM Dashboard
+Try Now: https://aashif000.github.io/LLM-Dashboard.github.io/
+#
+This is a Dashboard project. It is built with TypeScript, React, and Jest for testing. The project provides an interface for interacting with large language models (LLMs).
 
-## Project info
+## Prerequisites
 
-**URL**: https://lovable.dev/projects/bc4579dd-b5bd-4b46-b644-7ba7f7d77f45
+Before you begin, ensure you have met the following requirements:
 
-## How can I edit this code?
+- Node.js (version 14.x or higher)
+- npm (Node Package Manager)
+- TypeScript (for type safety)
+- Jest (for testing)
 
-There are several ways of editing your application.
+## Setup
 
-**Use Lovable**
+To get started with the project, follow these steps:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/bc4579dd-b5bd-4b46-b644-7ba7f7d77f45) and start prompting.
+### 1. Clone the repository
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash 
+git clone https://github.com/aashif000/llm_dashboard.github.io
 ```
 
-**Edit a file directly in GitHub**
+### 2. Install dependencies
+Navigate to the project directory and install the required dependencies:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+ ``` bash
+cd llm_dashboard
+npm install
+ ```
 
-**Use GitHub Codespaces**
+### 3. Run the Development Server
+To start the development server, run:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+ ```bash
+npm run dev
+ ```
+This will start the server, and the application will be available at http://localhost:3000.
 
-## What technologies are used for this project?
+## Testing
+### 1. Running Tests
+To run the tests, use the following command:
 
-This project is built with .
+ ```bash 
+npm test
+ ```
+This will trigger Jest to run the test suites and output the results.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### 2. Testing in Development Mode
+For continuous testing, you can run Jest in watch mode:
 
-## How can I deploy this project?
+ ```bash
+npm run test:watch
+ ```
+This will watch for file changes and automatically rerun the tests.
 
-Simply open [Lovable](https://lovable.dev/projects/bc4579dd-b5bd-4b46-b644-7ba7f7d77f45) and click on Share -> Publish.
 
-## I want to use a custom domain - is that possible?
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+
