@@ -1,5 +1,5 @@
 # LLM Dashboard
-Try Now: https://aashif000.github.io/LLM-Dashboard.github.io/
+Try Now: [https://aashif000.github.io/LLM-Dashboard.github.io/](https://aashif000.github.io/LLM-Dash-Board-2.0.github.io/)
 #
 This is a Dashboard project. It is built with TypeScript, React, and Jest for testing. The project provides an interface for interacting with large language models (LLMs).
 
